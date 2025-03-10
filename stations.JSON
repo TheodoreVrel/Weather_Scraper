@@ -50,10 +50,7 @@
       "ski_info_link_param" : "alpes-du-nord/les-arcs-bourg-st-maurice",
       "additional_link" : "https://www.lesarcs.com/infos-live/meteo/station/1/arc-1600-arc-1800",
 
-      "a_min_temp_resort_element_id" : "//div[@class='meteo_module']//div[@class='info ']//span[@class='temperature']/strong",
-      "a_max_temp_resort_element_id" : "//div[@class='meteo_module']//div[@class='info ']//span[@class='temperature']"
-
-
+      "a_min_max_temp_resort_element_id" : "//div[@class='meteo_module']//div[@class='info ']//span[@class='temperature']"
     },
     {
       "id" : 4,
@@ -66,10 +63,10 @@
       "a_snow_resort_element_id" : "(//div[@class='snow-data_snowDepth__0MPi7'])[1]",
       "a_snow_altitude_element_id" : "(//div[@class='snow-data_snowDepth__0MPi7'])[2]",
 
-      "a_am_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[1]",
-      "a_pm_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[2]",
-      "a_am_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[3]",
-      "a_pm_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[4]",
+      "a_am_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[1]//span[1]",
+      "a_pm_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[2]//span[1]",
+      "a_am_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[3]//span[1]",
+      "a_pm_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[4]//span[1]",
       "a_switch_to_altitude_button_element_id" : "//button[@class='button_button__cl3hC weather-zones_zone__ACNga button_iconOnly__0LkKw']"
 
     },

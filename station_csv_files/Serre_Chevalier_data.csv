@@ -1,0 +1,4 @@
+name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,a_resort_snow,f_i_altitude_snow,s_i_altitude_snow,a_altitude_snow,f_i_resort_temp,s_i_resort_temp,a_resort_min_temperature,a_resort_max_temperature,f_i_altitude_temp,s_i_altitude_temp,a_altitude_min_temperature,a_altitude_max_temperature
+Serre Chevalier,2025-03-10,21,35.0,35.0,35.0,122.0,122.0,122.0,6.0,2.0,1.0,10.0,-8.0,-6.0,-7.0,-5.0
+Serre Chevalier,2025-03-10,21,35.0,35.0,35.0,122.0,122.0,122.0,6.0,2.0,1.0,10.0,-8.0,-6.0,-7.0,-5.0
+Serre Chevalier,2025-03-10,22,35.0,35.0,35.0,122.0,122.0,122.0,6.0,2.0,1.0,10.0,-8.0,-6.0,-7.0,-5.0

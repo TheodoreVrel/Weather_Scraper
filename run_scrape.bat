@@ -1,0 +1,1 @@
+start powershell -Command "python C:\Users\TVrel\Desktop\WeatherScraper\app.py"
