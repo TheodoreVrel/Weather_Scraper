@@ -1,0 +1,214 @@
+{
+  "global_elements_data": {
+    "f_i_snow_resort_element_id" : "dd.center-element:nth-child(3) > span:nth-child(2)",
+    "f_i_snow_altitude_element_id" : "dd.center-element:nth-child(2) > span:nth-child(2)",
+    "f_i_temp_element_id" : ".element-title",
+
+    "s_i_snow_resort_element_id" : "(//div[@class='styles_metricNumber__54sKz'])[1]",
+    "s_i_snow_altitude_element_id" : "(//div[@class='styles_metricNumber__54sKz'])[2]",
+    "s_i_min_max_temp_element_id" : "(//span[@class='styles_h4__r_Yhw'])[1]",
+    "s_i_temp_element_id" : "((//article[@class='styles_box__DnDyN'])[2]//span[@class='styles_h4__r_Yhw'])[1]"
+
+  },
+  "buttons_data": {
+    "f_i_switch_to_altitude_button_element_id" : "(//button[@class='svelte-a3fe7s'])[1]",
+    "s_i_switch_to_altitude_button_element_id" : ".styles_tabs__j0zzx > button:nth-child(2)"
+  },
+
+  "resorts" :[
+    {
+      "id" : 0,
+      "name" : "Saint Lary Soulan",
+      "france_info_link_param" : "saint-lary-soulan",
+      "ski_info_link_param" : "pyrenees/saint-lary-soulan"
+    },
+    {
+      "id" : 1,
+      "name" : "Besse Super Besse",
+      "france_info_link_param" : "besse-super-besse",
+      "ski_info_link_param" : "massif-central/besse-super-besse/",
+      "additional_link" : "https://www.sancy.com/decouvrir/toutes-les-communes/super-besse/superbesse-station-de-ski-et-sports-hiver/enneigement-station-super-besse/",
+
+      "a_snow_resort_element_id" : "(//div[@class='meteo_matin'])[5]//span[@class='text']",
+      "a_snow_altitude_element_id" : "(//div[@class='meteo_matin'])[11]//span[@class='text']",
+
+      "a_am_temp_resort_element_id" : "(//div[@class='meteo_matin'])[1]//span[@class='text']",
+      "a_pm_temp_altitude_element_id" : "(//div[@class='meteo_matin'])[7]//span[@class='text']"
+
+
+    },
+    {
+      "id" : 2,
+      "name" : "Ax 3 domaines",
+      "france_info_link_param" : "ax-3-domaines",
+      "ski_info_link_param" : "pyrenees/ax-3-domaines"
+    },
+    {
+      "id" : 3,
+      "name" : "Les Arcs",
+      "france_info_link_param" : "les-arcs",
+      "ski_info_link_param" : "alpes-du-nord/les-arcs-bourg-st-maurice",
+      "additional_link" : "https://www.lesarcs.com/infos-live/meteo/station/1/arc-1600-arc-1800",
+
+      "a_min_temp_resort_element_id" : "//div[@class='meteo_module']//div[@class='info ']//span[@class='temperature']/strong",
+      "a_max_temp_resort_element_id" : "//div[@class='meteo_module']//div[@class='info ']//span[@class='temperature']"
+
+
+    },
+    {
+      "id" : 4,
+      "name" : "La Bresse Hohneck",
+      "france_info_link_param" : "la-bresse-hohneck",
+      "ski_info_link_param" : "vosges/la-bresse-hohneck",
+      "additional_link" : "https://labresse.labellemontagne.com/fr/hiver/infos-station/meteo/#meteo-neige",
+      
+
+      "a_snow_resort_element_id" : "(//div[@class='snow-data_snowDepth__0MPi7'])[1]",
+      "a_snow_altitude_element_id" : "(//div[@class='snow-data_snowDepth__0MPi7'])[2]",
+
+      "a_am_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[1]",
+      "a_pm_temp_resort_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[2]",
+      "a_am_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[3]",
+      "a_pm_temp_altitude_element_id" : "(//div[@class='weather-data_weatherInfo__TIa6_'])[4]",
+      "a_switch_to_altitude_button_element_id" : "//button[@class='button_button__cl3hC weather-zones_zone__ACNga button_iconOnly__0LkKw']"
+
+    },
+    {
+      "id" : 5,
+      "name" : "Val Thorens",
+      "france_info_link_param" : "val-thorens",
+      "ski_info_link_param" : "alpes-du-nord/val-thorens",
+      "additional_link" : "https://www.valthorens.com/meteo/",
+      
+
+      "a_snow_resort_element_id" : "(//div[@class='wp-block-info-neige-station__summary__weather-data__wrapper']//tr[3]/td)[1]",
+      "a_snow_altitude_element_id" : "(//div[@class='wp-block-info-neige-station__summary__weather-data__wrapper']//tr[3]/td)[2]",
+      "a_temp_resort_element_id" : "(//div[@class='wp-block-info-neige-station__summary__weather-data__wrapper']//tr[8]/td)[1]",
+      "a_temp_altitude_element_id" : "(//div[@class='wp-block-info-neige-station__summary__weather-data__wrapper']//tr[8]/td)[2]"
+
+
+    },
+    {
+      "id" : 6,
+      "name" : "Val d'Isère",
+      "france_info_link_param" : "val-d-isere",
+      "ski_info_link_param" : "alpes-du-nord/val-disere",
+      "additional_link" : "https://www.valdisere.com/live/meteo-a-val-disere/",
+
+      "a_snow_resort_element_id" : "(//span[@class='value'])[1]",
+      "a_snow_altitude_element_id" : "(//span[@class='value'])[2]",
+      "a_temp_resort_element_id" : "((//div[@class='swiper-slide swRespS swiper-slide-visible swiper-slide-active'])[1]//div[@class='temperature'])[1]",
+
+      "a_switch_to_snow_button_element_id" : "//a[@class='woody-component-button button primary normal has-icon']",
+      "a_cookies_pop_up_button_element_id" : "//*[@id=\"sd-cmp\"]/div[2]/div/div/div[3]/div/div/div[1]/div[3]/button"
+
+    },
+    {
+      "id" : 7,
+      "name" : "La Plagne",
+      "france_info_link_param" : "la-plagne",
+      "ski_info_link_param" : "alpes-du-nord/la-plagne",
+      "additional_link" : "https://www.la-plagne.com/meteo",
+      
+
+      "a_snow_resort_element_id" : "(//div[@class='col value'])[7]",
+      "a_snow_altitude_element_id" : "(//div[@class='col value'])[10]",
+
+      "a_am_temp_resort_element_id" : "(//div[@class='temperature'])[3]",
+      "a_pm_temp_resort_element_id" : "(//div[@class='temperature'])[4]",
+      "a_am_temp_altitude_element_id" : "(//div[@class='temperature'])[5]",
+      "a_pm_temp_altitude_element_id" : "(//div[@class='temperature'])[6]"
+    },
+    {
+      "id" : 8,
+      "name" : "Les Menuires",
+      "france_info_link_param" : "les-menuires",
+      "ski_info_link_param" : "alpes-du-nord/les-menuires"
+    },
+    {
+      "id" : 9,
+      "name" : "Avoriaz",
+      "france_info_link_param" : "avoriaz",
+      "ski_info_link_param" : "alpes-du-nord/avoriaz",
+      "additional_link" : "https://www.avoriaz.com/meteo/",
+      
+
+      "a_snow_resort_element_id" : "(//div[@class='WidgetWeatherItem-colLine'])[1]//strong",
+      "a_snow_altitude_element_id" : "(//div[@class='WidgetWeatherItem-colLine'])[2]//strong",
+
+      "a_am_temp_resort_element_id" : "(//div[@class='WidgetWeatherItem-tempValue'])[1]",
+      "a_pm_temp_resort_element_id" : "(//div[@class='WidgetWeatherItem-tempValue'])[3]",
+      "a_am_temp_altitude_element_id" : "(//div[@class='WidgetWeatherItem-tempValue'])[2]",
+      "a_pm_temp_altitude_element_id" : "(//div[@class='WidgetWeatherItem-tempValue'])[4]"
+    },
+    {
+      "id" : 10,
+      "name" : "Villard de lans",
+      "france_info_link_param" : "villard-de-lans",
+      "ski_info_link_param" : "alpes-du-nord/villard-de-lans"
+    },
+    {
+      "id" : 11,
+      "name" : "Les Deux Alpes",
+      "france_info_link_param" : "les-deux-alpes",
+      "ski_info_link_param" : "alpes-du-nord/les-2-alpes"
+    },
+    {
+      "id" : 12,
+      "name" : "Tignes",
+      "france_info_link_param" : "tignes",
+      "ski_info_link_param" : "alpes-du-nord/tignes",
+      "additional_link" : "https://www.tignes.net/meteo-tignes",
+
+      "a_snow_altitude_element_id" : "((//div[@class='col-1-2 collapse-mobile bg-white align-center'])[10]//span)[1]",
+
+      "a_am_temp_altitude_element_id" : "((//div[@class='col-1-2 collapse-mobile bg-white align-center'])[2]//td[@class='matin'])",
+      "a_pm_temp_altitude_element_id" : "((//div[@class='col-1-2 collapse-mobile bg-white align-center'])[2]//td[@class='apresmidi'])"
+
+    },
+    {
+      "id" : 13,
+      "name" : "Serre Chevalier",
+      "france_info_link_param" : "serre-chevalier",
+      "ski_info_link_param" : "alpes-du-sud/serre-chevalier",
+      "additional_link" : "https://www.serre-chevalier.com/fr/live/meteo",
+      
+
+      "a_snow_resort_element_id" : "((//div[@class='meteo-block winter'])//td)[2]",
+      "a_snow_altitude_element_id" : "((//div[@class='meteo-block winter'])//td)[6]",
+
+      "a_min_max_temp_resort_element_id" : "((//div[@class='block-endetail'])//td)[2]",
+      "a_min_max_temp_altitude_element_id" : "((//div[@class='block-endetail'])//td)[6]"
+    },
+    {
+      "id" : 14,
+      "name" : "Courchevel",
+      "france_info_link_param" : "courchevel",
+      "ski_info_link_param" : "alpes-du-nord/courchevel",
+      "additional_link" : "https://courchevel.com/fr/meteo/",
+      
+
+      "a_snow_resort_element_id" : "((//ul[@class='Drawer_conditionsTable__0FwJf'])//li)[3]//p[@class='Text_body3__dzwzl   opacity-50 lg:opacity-100']",
+
+      "a_am_temp_resort_element_id" : "(//p[@class='Drawer_secondaryTemperature__e_oLW'])[1]",
+      "a_pm_temp_resort_element_id" : "(//p[@class='Drawer_secondaryTemperature__e_oLW'])[1]",
+      "a_am_temp_altitude_element_id" : "(//p[@class='Drawer_secondaryTemperature__e_oLW'])[2]",
+      "a_pm_temp_altitude_element_id" : "(//p[@class='Drawer_secondaryTemperature__e_oLW'])[2]",
+      "a_switch_to_altitude_button_element_id" : "(//p[@class='Text_ui1__jRN4c   opacity-50'])[1]",
+      "a_cookies_pop_up_button_element_id" : "//*[@id=\"axeptio_btn_dismiss\"]"
+    },
+    {
+      "id" : 15,
+      "name" : "Lac Blanc",
+      "france_info_link_param" : "lac-blanc",
+      "ski_info_link_param" : "vosges/le-lac-blanc",
+      "additional_link" : "https://www.lac-blanc.com/hiver/ski-et-snowboard/bulletin-neige/",
+
+
+      "a_snow_resort_element_id" : ".EnneigementInfosNeige > span:nth-of-type(1)",
+      "a_snow_altitude_element_id" : ".EnneigementInfosNeige > span:nth-of-type(2)",
+      "a_temp_resort_element_id" : ".tempera-bas:nth-child(4) > span:nth-child(1)",
+      "a_temp_altitude_element_id" : ".tempera-haut:nth-child(3) > span:nth-child(1)"
+    }
+  ]
+}

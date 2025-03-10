@@ -1,0 +1,82 @@
+[
+    {
+        "domain": ".courchevel.com",
+        "expiry": 1773098265,
+        "httpOnly": false,
+        "name": "_pin_unauth",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "dWlkPU5ETTBNRGxqWW1RdE56TTFNeTAwWlRNd0xUaGtZMkV0WkRVME9EZGxOakk1T0RGbA"
+    },
+    {
+        "domain": ".courchevel.com",
+        "expiry": 1749338265,
+        "httpOnly": false,
+        "name": "_fbp",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "fb.1.1741562265419.695218681587227945"
+    },
+    {
+        "domain": ".courchevel.com",
+        "expiry": 1776122265,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GA1.1.1087376999.1741562265"
+    },
+    {
+        "domain": ".courchevel.com",
+        "expiry": 1749338258,
+        "httpOnly": false,
+        "name": "_gcl_au",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "1.1.1287541402.1741562258"
+    },
+    {
+        "domain": ".courchevel.com",
+        "expiry": 1776122265,
+        "httpOnly": false,
+        "name": "_ga_4G52K55ZWS",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GS1.1.1741562265.1.0.1741562265.60.0.0"
+    },
+    {
+        "domain": "courchevel.com",
+        "expiry": 1757978265,
+        "httpOnly": false,
+        "name": "axeptio_cookies",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "{%22$$token%22:%22o5uc7y2bgqkag9a5e8gp%22%2C%22$$date%22:%222025-03-09T23:17:45.070Z%22%2C%22$$cookiesVersion%22:{%22name%22:%22courchevel-fr%22%2C%22identifier%22:%2264b63d0b6f0a904d052dcbdd%22}%2C%22facebook_pixel%22:true%2C%22google_analytics%22:true%2C%22matomo%22:true%2C%22pinterest%22:true%2C%22Matomo%22:true%2C%22$$completed%22:true}"
+    },
+    {
+        "domain": "courchevel.com",
+        "expiry": 1757978265,
+        "httpOnly": false,
+        "name": "axeptio_all_vendors",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "%2Cfacebook_pixel%2Cgoogle_analytics%2Cmatomo%2Cpinterest%2CMatomo%2C"
+    },
+    {
+        "domain": "courchevel.com",
+        "expiry": 1757978265,
+        "httpOnly": false,
+        "name": "axeptio_authorized_vendors",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "%2Cfacebook_pixel%2Cgoogle_analytics%2Cmatomo%2Cpinterest%2CMatomo%2C"
+    }
+]

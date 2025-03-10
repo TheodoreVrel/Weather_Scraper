@@ -1,0 +1,230 @@
+[
+    {
+        "domain": ".skiinfo.fr",
+        "httpOnly": false,
+        "name": "wisepops_session",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%7B%22arrivalOnSite%22%3A%222025-03-09T23%3A43%3A28.025Z%22%2C%22mtime%22%3A1741563810051%2C%22pageviews%22%3A1%2C%22popups%22%3A%7B%7D%2C%22bars%22%3A%7B%22511416%22%3A0%7D%2C%22embeds%22%3A%7B%7D%2C%22sticky%22%3A%7B%7D%2C%22countdowns%22%3A%7B%7D%2C%22src%22%3Anull%2C%22utm%22%3A%7B%7D%2C%22testIp%22%3Anull%7D"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1776123810,
+        "httpOnly": false,
+        "name": "wisepops",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%7B%22popups%22%3A%7B%22511416%22%3A%7B%22dc%22%3A1%2C%22d%22%3A1741563810047%7D%7D%2C%22sub%22%3A0%2C%22ucrn%22%3A60%2C%22cid%22%3A%2280522%22%2C%22v%22%3A5%2C%22bandit%22%3A%7B%22recos%22%3A%7B%7D%7D%7D"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1776123808,
+        "httpOnly": false,
+        "name": "wisepops_visitor",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%7B%22FCYiS4HUCj%22%3A%22f5123b25-2bc8-4265-8979-d0a68b3f7d1f%22%7D"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "expiry": 1742168609,
+        "httpOnly": false,
+        "name": "panoramaId",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "55efc279425f20aed2acef770147185ca02c999107f74927ff10549d28158476"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "expiry": 1764891808,
+        "httpOnly": false,
+        "name": "_cc_id",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "fdc27b9fb6bffb0d9be622b488f4633d"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1776123808,
+        "httpOnly": false,
+        "name": "_ga_MCZ9Y83VJQ",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GS1.1.1741563807.1.1.1741563808.59.0.0"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "expiry": 1742168609,
+        "httpOnly": false,
+        "name": "panoramaIdType",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "panoDevice"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1773099808,
+        "httpOnly": false,
+        "name": "OptanonConsent",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "isGpcEnabled=0&datestamp=Mon+Mar+10+2025+00%3A43%3A28+GMT%2B0100+(heure+normale+d%E2%80%99Europe+centrale)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&geolocation=FR%3BIDF&groups=C0003%3A1%2CC0001%3A1%2CC0005%3A1%2CC0002%3A1%2CC0004%3A1%2CV2STACK42%3A1&AwaitingReconsent=false"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1749339807,
+        "httpOnly": false,
+        "name": "_gcl_au",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "1.1.1162000831.1741563807"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1757115807,
+        "httpOnly": false,
+        "name": "__eoi",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "ID=561526d5c0007df5:T=1741563807:RT=1741563807:S=AA-Afjb4yv5nwLC2ZKIKR-yuCqYb"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "httpOnly": false,
+        "name": "_yosid",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "03574e1d-926d-44ce-a020-713dbdfcc291"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1746747803,
+        "httpOnly": false,
+        "name": "pipay_ext",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "1"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1773099806,
+        "httpOnly": false,
+        "name": "eupubconsent-v2",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "CQN__dgQN__dgAcABBFRBgFsAP_gAEPgACiQK4tX_G__bWlr8X73aftkeY1P99h77sQxBgbJE-4FzLvW_JwXx2E5NAz6tqIKmRIAu3TBIQNlHJDURVCgaogVrSDMaEyUoTNKJ6BkiFMRI2dYCFxvm4tjeQCY5vr991dx2B-t7dr83dzyy4hHn3a5_2S1WJCdAYetDfv9bROb-9IOd_x8v4v4_F7pE2-eS1l_tWvp7D9-cts_9XW99_bbff9Pn_-uF_-_X_vf_H37v94K6AEmGhUQRlkSEhAoGEECAFQVhARQIAgAASBogIATBgU5AwAXWEiAEAKAAYIAQAAgwABAAAJAAhEAFABQIAAIBAoAAwAIBgIAGBgADABYCAQAAgOgYpgQQCBYAJGZFApgSgAJBAS2VCCQBAgrhCEWeAQAIiYKAAAEAApAAEB4LA4kkBKxIIAuIJoAACAAAIIAChFJ2YAggDNlqrwZNoytMCwfMFzymAZAEQRk5JsQm_AA.f_wACHwAAAAA"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1775259807,
+        "httpOnly": false,
+        "name": "__gpi",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "UID=0000101227304c88:T=1741563807:RT=1741563807:S=ALNI_MbZeZnll68oam1hHiRC_VF6jwvt6Q"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1746747803,
+        "httpOnly": false,
+        "name": "1beaa49a1e5c4fc369953749b92dff22_hash",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "57ea0d2ea52a2d4cc1e59951a0257368"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1776123807,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GA1.1.820017069.1741563807"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1776123808,
+        "httpOnly": false,
+        "name": "wisepops_visits",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%5B%222025-03-09T23%3A43%3A28.025Z%22%5D"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "expiry": 1742168609,
+        "httpOnly": false,
+        "name": "panoramaId_expiry",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "1742168608980"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1746747803,
+        "httpOnly": false,
+        "name": "1beaa49a1e5c4fc369953749b92dff22_id",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "26991516"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1775259807,
+        "httpOnly": false,
+        "name": "__gads",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "ID=209b47f466773c04:T=1741563807:RT=1741563807:S=ALNI_MbamNELISqcrMngHMLkda5eDE8hYQ"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1749339808,
+        "httpOnly": false,
+        "name": "_fbp",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "fb.1.1741563807040.90996326471889689"
+    },
+    {
+        "domain": ".www.skiinfo.fr",
+        "expiry": 1773099807,
+        "httpOnly": false,
+        "name": "_yoid",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "f65b675d-36b5-4b8b-871e-554c5316c1e1"
+    },
+    {
+        "domain": ".skiinfo.fr",
+        "expiry": 1773099806,
+        "httpOnly": false,
+        "name": "OptanonAlertBoxClosed",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "2025-03-09T23:43:26.357Z"
+    }
+]
