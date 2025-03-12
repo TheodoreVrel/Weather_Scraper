@@ -32,7 +32,7 @@ plot_differences <- function(file_path, temp_or_snow = "", alert_threshold = 0) 
   }
   
   # Create bar plots, one per day
-  png(paste0(file_path, "highlighted_bar_graph.png"), width = 800, height = 600)  # Open PNG device
+  png(paste0(file_path, temp_or_snow, "highlighted_bar_graph.png"), width = 800, height = 600)  # Open PNG device
   plot <- ggplot(long_data, aes(x = Variable, y = Value, fill = (Value >= threshold | Value <= -threshold))) +
     geom_bar(stat = "identity", position = "dodge") +
     scale_fill_manual(values = c("FALSE" = "blue", "TRUE" = "red")) +  # Highlight differences ≥ 5

@@ -1,4 +1,0 @@
-"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","a_resort_snow","f_i_altitude_snow","s_i_altitude_snow","a_altitude_snow","f_i_resort_temp","s_i_resort_temp","a_resort_temperature","f_i_altitude_temp","s_i_altitude_temp","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
-"Val d'IsÃ¨re","2025-03-12",13,103,103,103,150,156,156,3,2,4,-10,-7,0,0,-6,-6,1,NA,-3,NA
-"Val d'IsÃ¨re","2025-03-12",13,113,103,103,150,156,146,3,2,4,-10,-7,10,10,-6,4,1,NA,-3,NA
-"Val d'IsÃ¨re","2025-03-12",13,113,153,103,150,156,146,3,2,4,-10,-8,-40,10,-6,4,1,NA,-2,NA
