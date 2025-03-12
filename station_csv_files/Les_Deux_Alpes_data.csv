@@ -1,4 +1,5 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,f_i_altitude_snow,s_i_altitude_snow,f_i_resort_temp,s_i_resort_temp,f_i_altitude_temp,s_i_altitude_temp
-Les Deux Alpes,2025-03-10,21,30.0,30.0,165.0,165.0,6.0,2.0,-14.0,-12.0
-Les Deux Alpes,2025-03-10,21,30.0,30.0,165.0,165.0,6.0,2.0,-14.0,-12.0
-Les Deux Alpes,2025-03-10,22,30.0,30.0,165.0,165.0,6.0,2.0,-14.0,-12.0
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","f_i_altitude_snow","s_i_altitude_snow","f_i_resort_temp","s_i_resort_temp","f_i_altitude_temp","s_i_altitude_temp","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Les Deux Alpes","2025-03-11",17,30,30,165,165,5,4.5,-14,4.5,0,NA,0,NA,0.5,NA,-18.5,NA
+"Les Deux Alpes","2025-03-12",10,30,30,165,165,5,4,-14,-10,0,NA,0,NA,1,NA,-4,NA
+"Les Deux Alpes","2025-03-12",11,30,30,165,165,6,4,-13,-10,0,NA,0,NA,2,NA,-3,NA
+"Les Deux Alpes","2025-03-12",13,30,30,165,165,7,5.5,-13,-10,0,NA,0,NA,1.5,NA,-3,NA

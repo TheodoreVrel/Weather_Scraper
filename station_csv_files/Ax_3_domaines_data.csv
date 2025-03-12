@@ -1,4 +1,5 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,f_i_altitude_snow,s_i_altitude_snow,f_i_resort_temp,s_i_resort_temp,f_i_altitude_temp,s_i_altitude_temp
-Ax 3 domaines,2025-03-10,21,40.0,40.0,70.0,70.0,1.0,-3.0,-7.0,-9.0
-Ax 3 domaines,2025-03-10,21,40.0,40.0,70.0,70.0,1.0,-3.0,-7.0,-9.0
-Ax 3 domaines,2025-03-10,22,40.0,40.0,70.0,70.0,-1.0,-4.5,-10.0,-10.5
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","f_i_altitude_snow","s_i_altitude_snow","f_i_resort_temp","s_i_resort_temp","f_i_altitude_temp","s_i_altitude_temp","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Ax 3 domaines","2025-03-11",17,40,40,70,70,5,5,-3,-1,0,NA,0,NA,0,NA,-2,NA
+"Ax 3 domaines","2025-03-12",10,40,40,70,70,2,2,-7,-4,0,NA,0,NA,0,NA,-3,NA
+"Ax 3 domaines","2025-03-12",11,40,40,70,70,2,2.5,-6,-3.5,0,NA,0,NA,-0.5,NA,-2.5,NA
+"Ax 3 domaines","2025-03-12",13,40,40,70,70,4,4,-5,-2.5,0,NA,0,NA,0,NA,-2.5,NA

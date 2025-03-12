@@ -1,4 +1,5 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,f_i_altitude_snow,s_i_altitude_snow,a_altitude_snow,f_i_resort_temp,s_i_resort_temp,f_i_altitude_temp,s_i_altitude_temp,a_am_altitude_temperature,a_pm_altitude_temperature
-Tignes,2025-03-10,21,103.0,132.0,150.0,205.0,205.0,5.0,3.0,-11.0,-13.0,-9.0,-8.0
-Tignes,2025-03-10,21,103.0,132.0,150.0,205.0,205.0,5.0,3.0,-11.0,-13.0,-9.0,-8.0
-Tignes,2025-03-10,22,103.0,132.0,150.0,205.0,205.0,5.0,3.0,-11.0,-13.0,-9.0,-8.0
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","f_i_altitude_snow","s_i_altitude_snow","a_altitude_snow","f_i_resort_temp","s_i_resort_temp","f_i_altitude_temp","s_i_altitude_temp","a_am_altitude_temperature","a_pm_altitude_temperature","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Tignes","2025-03-11",17,103,132,150,205,205,6,4,-10,-10.5,-10,-9,-29,NA,-55,-55,2,NA,0.5,NA
+"Tignes","2025-03-12",10,103,132,150,205,205,5,2.5,-11,-10.5,-10,-9,-29,NA,-55,-55,2.5,NA,-0.5,NA
+"Tignes","2025-03-12",11,103,132,150,205,205,5,2.5,-11,-10,-10,-9,-29,NA,-55,-55,2.5,NA,-1,NA
+"Tignes","2025-03-12",13,103,132,150,205,205,6,3,-10,-10,-10,-9,-29,NA,-55,-55,3,NA,0,NA

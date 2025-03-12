@@ -24,7 +24,6 @@ import csv
 # with open('/stations.JSON') as s:
 #     json_data = json.load(s)
 
-# Get the base path for the executable or script
 if getattr(sys, 'frozen', False):
     base_path = sys._MEIPASS
 else:
@@ -35,11 +34,11 @@ folder_name = 'WeatherScraper'
 json_file_path = os.path.join(desktop_path, folder_name, 'stations.JSON')
 csv_folder_path = os.path.join(desktop_path, folder_name, 'station_csv_files')
 
-# Check the constructed file path
+
 print("Using JSON file path:", json_file_path)
 print("CSV file folder path:", csv_folder_path)
 
-# Now, you can load the JSON file
+
 try:
     with open(json_file_path, 'r') as file:
         json_data = json.load(file)
@@ -146,14 +145,15 @@ def has_additional_link(station_id):
 def run_data_scraper():
     #for station_num in range(6,7):
     for station_num in range(16):
-        # try:
+        try:
             # add_data_to_csv(json_data['resorts'][station_num]['name'], get_all_station_data(station_num))
             d = get_all_station_data(station_num)
             # print(type(d))
+            # #print(json_data['resorts'][station_num]['name'], d)
             add_data_to_csv(json_data['resorts'][station_num]['name'], d)
-            #print(json_data['resorts'][station_num]['name'], d)
-        # except Exception:
-        #     print(Exception)
+
+        except Exception as e:
+            print(f"Passing because of {e}")
 
 
 def get_all_station_data(station_id):
@@ -441,10 +441,12 @@ def clean_num_data(data):
 
     return clean_data
 
+def get_station_csv(station_name):
+    return (str(csv_folder_path + "\\" + station_name.replace(" ", "_")) + "_data.csv").replace("\\", "\\\\")
 
 # data storage
 def add_data_to_csv(station_name, data_dict):
-    filename = str(csv_folder_path + "\\" + station_name.replace(" ", "_")) + "_data.csv"
+    filename = get_station_csv(station_name)
     # print(filename)
     """Appends a list of dictionaries to a CSV file, ensuring all keys are included."""
     # Step 1: Get all unique keys from all dictionaries (headers)
@@ -453,24 +455,30 @@ def add_data_to_csv(station_name, data_dict):
     # Extract all keys to ensure consistent column headers
     all_keys = [key for key in csv_data_order if key in data_dict]
 
-    # try:
+    try:
     # if file_exists:
     #     os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH)
-    with open(filename, "a", newline="", encoding="utf-8") as csvfile:
-        os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH)
+        with open(filename, "a", newline="", encoding="utf-8") as csvfile:
+            os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH)
 
-        writer = csv.DictWriter(csvfile, fieldnames=all_keys)
+            writer = csv.DictWriter(csvfile, fieldnames=all_keys)
 
-        if not file_exists:
-            writer.writeheader()  # Create headers only if file doesn't exist
+            if not file_exists:
+                writer.writeheader()  # Create headers only if file doesn't exist
 
-        writer.writerow(data_dict)  # Append the new data entry
+            writer.writerow(data_dict)  # Append the new data entry
 
-    print(f"Data for {station_name} saved to {filename}")
-    # except PermissionError:
-    #     print("Permission denied. Please run the program as Administrator or check file permissions.")
+        print(f"Data for {station_name} saved to {filename}")
+    except PermissionError:
+        print("Permission denied. Not updating file ", filename)
 
 
 # Execution
 #get_all_station_data(15)
 run_data_scraper()
+
+sleep(10)
+
+print("Done. Closing this window.")
+driver.quit()
+sys.exit()

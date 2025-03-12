@@ -1,4 +1,3 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,a_resort_snow,f_i_altitude_snow,s_i_altitude_snow,a_altitude_snow,f_i_resort_temp,s_i_resort_temp,a_am_resort_temperature,a_pm_resort_temperature,f_i_altitude_temp,s_i_altitude_temp,a_am_altitude_temperature,a_pm_altitude_temperature
-Avoriaz,2025-03-10,21,33.0,150.0,150.0,127.0,340.0,340.0,8.0,1.5,1.0,-100.0,-2.0,-4.5,-3.0,-100.0
-Avoriaz,2025-03-10,21,33.0,150.0,150.0,127.0,340.0,340.0,8.0,1.5,1.0,-100.0,-2.0,-4.5,-3.0,-100.0
-Avoriaz,2025-03-10,22,33.0,150.0,150.0,127.0,340.0,340.0,8.0,1.5,1.0,-100.0,-2.0,-4.5,-3.0,-100.0
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","a_resort_snow","f_i_altitude_snow","s_i_altitude_snow","a_altitude_snow","f_i_resort_temp","s_i_resort_temp","a_am_resort_temperature","a_pm_resort_temperature","f_i_altitude_temp","s_i_altitude_temp","a_am_altitude_temperature","a_pm_altitude_temperature","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Avoriaz","2025-03-11",17,35,145,145,129,340,340,9,5.5,0,NA,0,-1.5,-3,NA,-110,-110,-211,-211,3.5,NA,1.5,NA
+"Avoriaz","2025-03-12",10,35,145,145,129,340,340,6,4,0,NA,-4,-3,-4,NA,-110,-110,-211,-211,2,NA,-1,NA

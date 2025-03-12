@@ -1,4 +1,5 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,a_resort_snow,f_i_altitude_snow,s_i_altitude_snow,a_altitude_snow,f_i_resort_temp,s_i_resort_temp,a_resort_temperature,f_i_altitude_temp,s_i_altitude_temp,a_altitude_temperature
-Lac Blanc,2025-03-10,21,-100,-100,-0.0,-100,-100,-0.0,4.0,6.0,5.0,3.0,4.0,4.0
-Lac Blanc,2025-03-10,21,-100,-100,-0.0,-100,-100,-0.0,4.0,6.0,5.0,3.0,4.0,4.0
-Lac Blanc,2025-03-10,22,-100,-100,-0.0,-100,-100,-0.0,4.0,6.0,5.0,3.0,4.0,4.0
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","a_resort_snow","f_i_altitude_snow","s_i_altitude_snow","a_altitude_snow","f_i_resort_temp","s_i_resort_temp","a_resort_temperature","f_i_altitude_temp","s_i_altitude_temp","a_altitude_temperature","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Lac Blanc","2025-03-11",17,NA,NA,0,NA,NA,0,8,7.5,4,6,5.5,3,NA,NA,NA,NA,0.5,NA,0.5,NA
+"Lac Blanc","2025-03-12",10,NA,NA,0,NA,NA,0,2,2,2,0,0.5,0,NA,NA,NA,NA,0,NA,-0.5,NA
+"Lac Blanc","2025-03-12",11,NA,NA,0,NA,NA,0,2,2.5,2,0,1,0,NA,NA,NA,NA,-0.5,NA,-1,NA
+"Lac Blanc","2025-03-12",13,NA,NA,0,NA,NA,0,1,3,2,-1,1,0,NA,NA,NA,NA,-2,NA,-2,NA

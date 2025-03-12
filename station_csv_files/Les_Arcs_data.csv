@@ -1,4 +1,5 @@
-name,gathered_time_day,gathered_time_hour,f_i_resort_snow,s_i_resort_snow,f_i_altitude_snow,s_i_altitude_snow,f_i_resort_temp,s_i_resort_temp,a_resort_min_temperature,a_resort_max_temperature,f_i_altitude_temp,s_i_altitude_temp
-Les Arcs,2025-03-10,21,50.0,-100,270.0,270.0,9.0,1.5,2.0,5.0,-9.0,-10.5
-Les Arcs,2025-03-10,21,50.0,-100,270.0,270.0,9.0,1.5,2.0,5.0,-9.0,-10.5
-Les Arcs,2025-03-10,22,50.0,-100,270.0,270.0,9.0,1.5,2.0,5.0,-9.0,-10.5
+"name","gathered_time_day","gathered_time_hour","f_i_resort_snow","s_i_resort_snow","f_i_altitude_snow","s_i_altitude_snow","f_i_resort_temp","s_i_resort_temp","a_resort_min_temperature","a_resort_max_temperature","f_i_altitude_temp","s_i_altitude_temp","f_i_resort_snow_vs_s_i_resort_snow_diff","f_i_resort_snow_vs_a_resort_snow_diff","f_i_altitude_snow_vs_s_i_altitude_snow_diff","f_i_altitude_snow_vs_a_altitude_snow_diff","f_i_resort_temp_vs_s_i_resort_temp_diff","f_i_resort_temp_vs_a_resort_temp_diff","f_i_altitude_temp_vs_s_i_altitude_temp_diff","f_i_altitude_temp_vs_a_altitude_temp_diff"
+"Les Arcs","2025-03-11",17,50,NA,270,270,10,4.5,2,7,-7,-7,NA,NA,0,NA,5.5,NA,0,NA
+"Les Arcs","2025-03-12",10,50,NA,270,270,7,0.5,1,4,-10,-9,NA,NA,0,NA,6.5,NA,-1,NA
+"Les Arcs","2025-03-12",11,50,NA,270,260,7,1.5,1,4,-10,-8.5,NA,NA,10,NA,5.5,NA,-1.5,NA
+"Les Arcs","2025-03-12",13,50,NA,270,260,8,3,1,4,-9,-8,NA,NA,10,NA,5,NA,-1,NA
